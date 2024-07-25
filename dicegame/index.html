@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js" defer></script>
+    <script src="javascript/scripts.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" >
+    <title>Final Project| Sean Mccort</title>
+</head>
+<body>
+    <section id="startingFrame">
+        <h1>Welcome to a fun dice game</h1>
+        <button id="gameStart">Start Game</button>
+    </section>
+    <section id="gameFrame">
+        <article id="playerHand">
+            <h2>Player</h2>
+            <div>
+                <img id="dice1">
+                <img id="dice2">
+            </div>
+            <div class="values">
+                <div id="playerDice1"></div>
+                <div id="playerDice2"></div>
+            </div>
+            <div id="playerScore" class="playerScore"></div>
+        </article>
+        <article id="computerHand">
+            <h2>Computer</h2>
+            <div>
+                <img id="dice3">
+                <img id="dice4">
+            </div>
+            <div class="values">
+                <div id="computerDice1"></div>
+                <div id="computerDice2"></div>
+            </div> 
+            <div id="computerScore" class="playerScore"></div>
+        </article>
+        <article id="controls">
+            <button id="roll">Roll</button>
+            <button id="reset">Reset</button>
+        </article>
+    </section>
+</body>
+</html>

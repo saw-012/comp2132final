@@ -1,0 +1,94 @@
+body
+{
+    background-color:black;
+    color: white;
+    font-family: "typewritter", sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+h2{
+    text-align: center;
+}
+header
+{
+    background-color:cadetblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+}
+section
+{
+    border-color: rgba(1, 1, 1, .3);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section article
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.values
+{
+    display: flex;
+    flex-direction: row;
+}
+.values div
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 10px 50px 10px 50px;
+}
+.playerScore
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 10px 50px 10px 50px;
+}
+#startingFrame
+{
+    display: block;
+}
+#gameFrame
+{
+    display: none;
+}
+section div
+{
+    align-self: center;
+}
+img
+{
+    width: 200px;
+    align-self: center;
+}
+#controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+button
+{
+    width: 150px;
+    height: 50px;
+}
+@media(max-width: 600px)
+{
+    body
+    {
+        font-size: 150%;
+    }
+    article
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
